@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App .container {
+  margin-top: 5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row div.notfound {
+  width: 100%;
+  margin-top: 10px;
+  color: #343a3f;
+}
+
+.row > div[class*='col-'] {
+ display: flex;
+}
+
+.card {
+  width: 100%;
+}
+
+mark {
+  padding: 0;
+  background-color: #ffd703;
+}
+
+.Navbar-logo {
+  height: 3rem;
+}
